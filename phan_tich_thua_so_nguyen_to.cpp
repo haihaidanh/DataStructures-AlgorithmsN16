@@ -15,11 +15,11 @@ int main(){
 					cnt++;
 					n/=i;
 				}
-				cout<<i<<" ("<<cnt<<") ";
+				cout<<i<<"("<<cnt<<") ";
 			}
 		}
 		if(n!=1){
-			cout<<n<<" (1)";
+			cout<<n<<"(1)";
 		}
 		cout<<endl;
 	}
