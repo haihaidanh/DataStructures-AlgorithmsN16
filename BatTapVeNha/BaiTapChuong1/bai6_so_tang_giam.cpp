@@ -6,11 +6,11 @@ void check(string s){
 		if((s[i]-'0'<s[i-1]-'0')){
 			tang=0;
 		}
-		else giam=0;
+		else if(s[i]-'0'>s[i-1]-'0') giam=0;
 		
 	}
-	if(!tang&&!giam) cout<<"NO"
-	cout<<"YES"<<endl;
+	if(!tang&&!giam) cout<<"NO"<<endl;
+	else cout<<"YES"<<endl;
 	
 }
 int main(){
