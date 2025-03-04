@@ -1,17 +1,7 @@
 #include<bits/stdc++.h>
 using namespace std;
 
-//void sort(int a[],int n){
-//	for(int i=1;i<n;i++){
-//		int x=a[i],p=i-1;
-//		while(p>-1&&a[p]>x){
-//			
-//			a[p+1]=a[p];p--;
-//		}
-//		a[p+1]=x;
-//	}
-//	
-//}
+
 void sort(int a[],int n){
 	for(int i=0;i<n-1;i++){
 		int min=i;
